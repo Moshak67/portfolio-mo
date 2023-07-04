@@ -8,7 +8,7 @@ const Main = () => {
     <div id="main" className='w-full h-screen bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-sky-300 via-neutral-100 to-blue-400 top-0 left-0 object-cover'>
       {/* <div className='absolute w-full h-screen object-cover bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-sky-300 via-neutral-100 to-blue-400 top-0 left-0'> */}
       {/* <div className='absolute w-full h-screen object-cover top-0 left-0' > */}
-        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
+        <div className="max-w-[1040px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
           Hey there! I'm Mo Shakir
           </h1>
