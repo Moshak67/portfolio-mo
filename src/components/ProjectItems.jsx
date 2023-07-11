@@ -2,7 +2,7 @@ import React from "react";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const ProjectItems = ({ img, title, tech, details, short, demo, repo }) => {
-  console.log(img)
+  console.log(img);
 
   const [showModal, setShowModal] = React.useState(false);
   return (
@@ -50,22 +50,14 @@ const ProjectItems = ({ img, title, tech, details, short, demo, repo }) => {
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto ">
-                  
-                   
-                      
-                        <div  className="flex justify-center">
-                        <img
-                          src={img[4]}
-                          className=""
-                          alt="Tailwind CSS Carousel component"
-                          
-                        />
-                        </div>
-                       
-                     
-                      
-                     
-                 
+                  <div className="flex justify-center">
+                    <img
+                      src={img[4]}
+                      className=""
+                      alt="Tailwind CSS Carousel component"
+                    />
+                  </div>
+
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
                     {details}
                   </p>

@@ -4,7 +4,7 @@ import transition from "../transition";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16  snap-y snap-mandatory overflow-auto">
       <div className="max-w-[1040px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#001b5e]">

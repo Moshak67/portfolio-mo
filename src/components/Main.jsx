@@ -5,7 +5,7 @@ import transition from "../transition";
 
 const Main = () => {
   return (
-    <div id="main" className='w-full h-screen bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-sky-300 via-neutral-100 to-blue-400 top-0 left-0 object-cover'>
+    <div id="main" className='w-full h-screen bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-sky-300 via-neutral-100 to-blue-400 top-0 left-0 object-cover snap-y snap-mandatory overflow-auto'>
       {/* <div className='absolute w-full h-screen object-cover bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-sky-300 via-neutral-100 to-blue-400 top-0 left-0'> */}
       {/* <div className='absolute w-full h-screen object-cover top-0 left-0' > */}
         <div className="max-w-[1040px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
