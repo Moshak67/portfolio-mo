@@ -1,15 +1,15 @@
 import React from "react";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
-const ProjectItems = ({ img, title, tech, details, short, demo, repo }) => {
+const ProjectItems = ({ img, title, tech, details, short, demo, repo,projectimage }) => {
   console.log(img);
 
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
-      <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
+      <div className="flex items-center justify-center  m-auto h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
         <img
-          src={img[0]}
+          src={img}
           alt="/"
           className="rounded-xl group-hover:opacity-10"
         />
@@ -52,7 +52,7 @@ const ProjectItems = ({ img, title, tech, details, short, demo, repo }) => {
                 <div className="relative p-6 flex-auto ">
                   <div className="flex justify-center">
                     <img
-                      src={img[4]}
+                      src={projectimage}
                       className=""
                       alt="Tailwind CSS Carousel component"
                     />

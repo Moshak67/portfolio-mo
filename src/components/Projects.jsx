@@ -8,13 +8,13 @@ import img5 from '../assets/giphy.gif'
 import transition from "../transition";
 
 
-
 const data = [
   {
     title: "Crypto Market Tracker - Web ",
     demo: 'https://read.cv/moshak',
     repo:'https://github.com/Moshak67/React-Native-Stock-Market-API',
-    img: [img1,img2,img3,img4,img5],
+    img: img1,
+    projectimage:img5,
     tech: ["React.Js", "Node.Js", "Material Ui"],
     short: 'React.js Application.',
     details:
@@ -24,33 +24,35 @@ const data = [
     title: "Crypto Market Tracker - Mobile",
     demo: 'https://read.cv/moshak',
     repo:'https://github.com/Moshak67/React-Native-Stock-Market-API',
-    img: [img1,img2,img3,img4,img5],
+    img: img2,
+    projectimage:img5,
     tech: ["Node.Js", "React Native", "Expo", "Material Ui", "Bootstrap"],
     short: 'Cross-Platform React Native Application.',
     details:
-      "Cross-Platform Mobile Application which allow users to view and analyse crypto market data. This app visualises market data using Chart.js library. Users can add a crypto currency to their watchlist.",
+      "Cryptocurrency market tracker app enable users to search for cryptocurrencies in the market, check market data visualized by charts and add any asset they want into their watchlist.",
   },
   {
     title: "E-commerce Platform",
     demo: 'https://read.cv/moshak',
-    repo:'https://github.com/Moshak67/React-Native-Stock-Market-API',
-    img: [img1,img2,img3,img4,img5],
+    repo:'https://github.com/Moshak67/Flexdrone',
+    img: img3,
+    projectimage:img5,
     tech: ["Java", "Spring Boot", "React.js", "Redux", "JWT", "Google Authenticator", "MySQL", "Material Ui"],
-    short: 'Cross-Platform React App.',
+    short: 'Spring Boot Microservices.',
     details:
-      "Flexdrone is an online retail business for the purchasing of public consumer-grade drones. Flexdrone gives flexibility to the customer's drone choice in three main ways: 1. Choice to select a drone collection that is pre-made and ready to fly. 2. Option to build a drone on our website by going through our guided user-interface. 3. Buy accessories or specific parts to replace or upgrade on a pre-existing drone. We source our products from manufacturers who meet standard Australian industry regulations and requirements.",
+      "Flexdrone is an online retail business for the purchasing of public consumer-grade drones. Flexdrone gives flexibility to the customer by enabling them to configure their drone however they want."
   },
 ];
 
 const Projects = () => {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-full">
       <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
         <h1 className="text-4xl font-bold text-center text-[#001b5e]">
           Projects
         </h1>
         <p className="text-center py-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Check out some of the projects i have built!
         </p>
         <div className="grid sm:grid-cols-2 gap-12">
           {data.map((item, idx) => (
@@ -62,6 +64,7 @@ const Projects = () => {
               short={item.short}
               demo={item.demo}
               repo={item.repo}
+              projectimage={item.projectimage}
               key={idx}
             />
           ))}
