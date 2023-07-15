@@ -30,9 +30,7 @@ const data = [
       "Data Structures and Algorithms",
       "Principles of Software Security",
       "Systems Analysis and Design",
-      "Research in IT Practice",
-      "Data Visualisation and BA",
-      "Principles of User Experience",
+      
     ],
   },
 ];

@@ -48,12 +48,10 @@ const Projects = () => {
   return (
     <div className="w-full h-full">
       <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-        <h1 className="text-4xl font-bold text-center text-[#001b5e]">
+        <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-8">
           Projects
         </h1>
-        <p className="text-center py-2">
-          Check out some of the projects i have built!
-        </p>
+        
         <div className="grid sm:grid-cols-2 gap-12">
           {data.map((item, idx) => (
             <ProjectItems

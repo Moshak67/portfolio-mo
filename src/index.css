@@ -4,7 +4,5 @@
 
 *{
     scroll-behavior: smooth;
-    overscroll-behavior-y: contain;
-    scroll-snap-type: y mandatory;
 }
 

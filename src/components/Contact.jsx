@@ -3,9 +3,9 @@ import React from 'react';
 const Contact = () => {
   return (
     <>
-   <div className='h-screen w-full'>
-   <div className="bg-gradient-to-b from-blue-800 to-[#001b5e] h-96 w-full">
-            <div id='contact' className="m-auto w-full h-screen max-w-[1040px] flex items-center justify-center my-12">
+   <div id='contact' className='h-screen w-full'>
+   <div className="bg-gradient-to-r from-slate-300 to-slate-500 h-96 w-full">
+            <div  className="m-auto w-full h-screen max-w-[1040px] flex items-center justify-center my-12">
                 <div className=" top-40 bg-white shadow-xl shadow-gray-400 rounded-xl py-12 lg:px-28 px-8">
                     <p className="md:text-3xl text-xl font-bold leading-7 text-center text-gray-700">Let’s have a chat!</p>
                     <form action="https://getform.io/f/56232c75-4c13-4ac8-bf90-07ee5fc4b586" method="POST">
