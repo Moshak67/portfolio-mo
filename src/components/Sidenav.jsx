@@ -3,7 +3,6 @@ import {
   AiOutlineHome,
   AiOutlineMail,
   AiOutlineMenu,
-  AiOutlineProject,
   AiOutlineIdcard,
 } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
@@ -14,7 +13,7 @@ import {
 } from "react-icons/bs";
 import { FaDev } from "react-icons/fa";
 import { Outlet, Link } from "react-router-dom";
-import { Tooltip, Button } from "@material-tailwind/react";
+import { Tooltip } from "@material-tailwind/react";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);

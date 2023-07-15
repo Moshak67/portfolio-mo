@@ -1,13 +1,13 @@
 import React from "react";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
-const ProjectItems = ({ img, title, tech, details, short, demo, repo,projectimage }) => {
+const ProjectItems = ({ img, title, tech, details, short, demo, repo, projectimage }) => {
   console.log(img);
 
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
-      <div className="flex items-center justify-center  m-auto h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
+      <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
         <img
           src={img}
           alt="/"
@@ -43,7 +43,7 @@ const ProjectItems = ({ img, title, tech, details, short, demo, repo,projectimag
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}
                   >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+                    <span className="bg-red-900 text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
                       ×
                     </span>
                   </button>
