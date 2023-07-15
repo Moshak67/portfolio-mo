@@ -4,7 +4,7 @@ import transition from "../transition";
 import { JavaOriginalWordmark,SpringOriginalWordmark,CsharpOriginal,ReactOriginalWordmark,GitOriginalWordmark, MysqlOriginalWordmark,PostgresqlPlainWordmark,TailwindcssPlain,MaterialuiOriginal, MongodbOriginalWordmark} from 'devicons-react';
 const Skills = () => {
   return (
-    <div id="skills" className='w-full  lg:h-screen p-2 bg-gradient-to-l from-rose-100 to-teal-100'>
+    <div id="skills" className='w-full  lg:h-screen p-2 bg-gradient-to-l from-rose-50 to-teal-50'>
         <div className="max-w-[1040px] mx-auto flex flex-col justify-center h-full" >
             <p className='text-xl tracking-widest uppercase text-[#001b5e]'>Skills</p>
             <h3 className="py-4 sm:text-2xl text-4xl font-bold text-gray-800">What I Can Do</h3>
