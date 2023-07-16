@@ -20,9 +20,9 @@ Tailwind css is my go to for styling, i also love using material ui to quickly p
 
 ## Tech Stack
 
-Vite.js
-Material Ui
-Tailwind Css
+- Vite.js
+- Material Ui
+- Tailwind Css
 
 
 
