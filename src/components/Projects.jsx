@@ -5,16 +5,18 @@ import img2 from "../assets/2.jpg";
 import img3 from "../assets/3.jpg";
 import img4 from "../assets/4.jpg";
 import img5 from '../assets/giphy.gif'
+import img6 from '../assets/crypto.gif'
+
 import transition from "../transition";
 
 
 const data = [
   {
     title: "Crypto Market Tracker - Web ",
-    demo: 'https://read.cv/moshak',
+    demo: 'https://moshak67.github.io/Cryptocurrency-Tracker/',
     repo:'https://github.com/Moshak67/React-Native-Stock-Market-API',
     img: img1,
-    projectimage:img5,
+    projectimage:img6,
     tech: ["React.Js", "Node.Js", "Material Ui"],
     short: 'React.js Application.',
     details:
