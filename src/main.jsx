@@ -8,6 +8,8 @@ import {
 
 } from "react-router-dom";
 import Main from './components/Main.jsx';
+import { inject } from '@vercel/analytics';
+inject();
 
 
 
